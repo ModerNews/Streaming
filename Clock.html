@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('clock').innerHTML =
+        h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+        }
+        </script>
+    </head>
+
+    <body onload="startTime()">
+
+        <div class="shadowbox", id="clock">
+            <p1>Timer will land here</p1>
+        </div>
+        <div class="overflowing">
+            <p>Here is some scrolling text... right to left!</p>
+        </div>
+        <div class="gradientbox"></div>
+    </body>
+    <style>
+        .shadowbox {
+        width: 3.5em;
+        border: 1px solid rgb(74, 132, 207);
+        padding: 16px 24px;
+        background-color: #3477eb;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 48px;
+        color: white;
+        text-shadow: 3px 3px darkgray;
+        float: left;
+        z-index: 100;
+        }
+        .overflowing {
+        position: relative;
+        top: 0px;
+        left: -35px;
+        z-index: -100;
+
+        width: 50.5em;
+        height: 1.6em;
+        border: 6px solid #3477eb;
+        padding: 16px 24px;
+        background-color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 32px;
+        color: black;
+        text-shadow: 3px 3px darkgray;
+        overflow: hidden;
+        }
+        .gradientbox {
+            
+            background-color: #3477eb;
+        }
+    </style>
+</html>
