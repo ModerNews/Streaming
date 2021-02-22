@@ -1,5 +1,6 @@
 function updateUser() {
     var configs = JSON.parse(data);
-    document.getElementById('txt').innerHTML = configs[0].name;
-    var t = setTimeout(startTime, 500);
+    document.getElementById('name').innerHTML = configs[0].name;
+    document.getElementById('title').innerHTML = configs[0].title + " - " + configs[0].author;
+    var t = setTimeout(updateUser, 500);
 }

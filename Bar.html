@@ -6,21 +6,67 @@
 
     <body onload="updateUser()">
         <style>
-            .text-box {
-                width: 600px;
+            .timer-bar{
+                position: relative;
+                top: 8px;
+                left: 2px;
+                z-index:100;
+                width: 250px;
                 height: 130px;
-                background-color: rgba(0, 0, 0, 0.781);
+                background-color: #294e8e;
             }
-            .text-box::before{
-                width: 10px;
+            .text-box {
+                position: absolute;
+                top: 8px;
+                left: 267px;
+                width: 800px;
                 height: 130px;
+                padding: 2em, 0.3em;
+                background-color: rgba(0, 0, 0, 0.781);
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 48px;
+                color: whitesmoke;
+            }
+
+            .anim-bar{
+                position: absolute;
+                left: 252px;
+                top: 8px;
+                z-index: -100;
+                width: 15px;
+                height: 130px;
+                border: 0px solid whitesmoke;
                 background-color: rgb(255, 255, 255);
             }
-        </style>
+            .sub-string {
+                position: relative;
+                top: -50px;
+                left: 292px;
+                z-index: 100;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 32px;
+                color: whitesmoke;
+            }
         
-        <div  class="text-box"></div>
-        <div id='txt'>
-            <p>Test text</p>
+            .main-string {
+                position: absolute;
+                top: 20px;
+                left: 290px;
+                z-index: 100;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 48px;
+                color: whitesmoke;
+            }
+        </style>
+        <div class="timer-bar"></div>
+        <div class="anim-bar"></div>
+        <div class="text-box">
+        </div>
+        <div class="main-string" id="name">
+            <p>Test Name</p>
+        </div>
+        <div class="sub-string", id="title">
+            <p>Test Title - Test Author</p>
         </div>
     </body>
 </html>
