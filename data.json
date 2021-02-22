@@ -1,1 +1,1 @@
-data = '[{"name":"Krzysztof Kowalski", "title":"Na Zdrowie", "author":"Jan Kochanowski"}]';
+data = '[{"name":"Marian Kowalski", "title":"Na Zdrowie", "author":"Jan Kochanowski", "visibility":"false"}]';
