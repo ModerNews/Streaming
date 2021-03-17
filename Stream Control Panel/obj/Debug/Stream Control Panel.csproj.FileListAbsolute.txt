@@ -1,0 +1,13 @@
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.csprojAssemblyReference.cache
+G:\Streaming\Stream Control Panel\obj\Debug\Stream_Control_Panel.Form1.resources
+G:\Streaming\Stream Control Panel\obj\Debug\Stream_Control_Panel.Properties.Resources.resources
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.csproj.GenerateResource.cache
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.csproj.CoreCompileInputs.cache
+G:\Streaming\Stream Control Panel\bin\Debug\Stream Control Panel.exe.config
+G:\Streaming\Stream Control Panel\bin\Debug\Stream Control Panel.exe
+G:\Streaming\Stream Control Panel\bin\Debug\Stream Control Panel.pdb
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.exe
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.pdb
+G:\Streaming\Stream Control Panel\bin\Debug\Newtonsoft.Json.dll
+G:\Streaming\Stream Control Panel\bin\Debug\Newtonsoft.Json.xml
+G:\Streaming\Stream Control Panel\obj\Debug\Stream Control Panel.csproj.CopyComplete
